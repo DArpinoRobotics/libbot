@@ -25,9 +25,6 @@ all:
 	done
 	@# Place additional commands here if you have any
 
-install_prereqs_homebrew :
-	brew install cmake gtk+
-
 clean:
 	@for subdir in $(SUBDIRS); do \
 		echo "\n-------------------------------------------"; \
